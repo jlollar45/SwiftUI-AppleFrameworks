@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4CA488332702D1E900257175 /* FrameworkDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA488322702D1E900257175 /* FrameworkDetailViewModel.swift */; };
 		4CAD2DBA26D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAD2DB926D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift */; };
 		4CAD2DBE26D2F0ED0027D6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD2DBD26D2F0ED0027D6A7 /* Assets.xcassets */; };
 		4CAD2DC126D2F0ED0027D6A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD2DC026D2F0ED0027D6A7 /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4CA488322702D1E900257175 /* FrameworkDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailViewModel.swift; sourceTree = "<group>"; };
 		4CAD2DB626D2F0EA0027D6A7 /* SwiftUI AppleFrameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI AppleFrameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CAD2DB926D2F0EA0027D6A7 /* SwiftUI_AppleFrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_AppleFrameworksApp.swift; sourceTree = "<group>"; };
 		4CAD2DBD26D2F0ED0027D6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		4CAD2DDA26D313080027D6A7 /* FrameworkDetailView */ = {
 			isa = PBXGroup;
 			children = (
+				4CA488322702D1E900257175 /* FrameworkDetailViewModel.swift */,
 				4CAD2DCC26D301C60027D6A7 /* FrameworkDetailView.swift */,
 			);
 			path = FrameworkDetailView;
@@ -223,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CA488332702D1E900257175 /* FrameworkDetailViewModel.swift in Sources */,
 				4CAD2DCD26D301C60027D6A7 /* FrameworkDetailView.swift in Sources */,
 				4CAD2DCB26D2F2F80027D6A7 /* FrameworkGridView.swift in Sources */,
 				4CAD2DD726D312020027D6A7 /* XDismissButton.swift in Sources */,
